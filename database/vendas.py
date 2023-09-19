@@ -6,3 +6,6 @@ vendas = [
         4: {"item": "cadeira", "preco_unitario": 130, "quantidade": 2},
     }
 ]
+
+
+print(max(vendas[-1].keys()) + 1)
